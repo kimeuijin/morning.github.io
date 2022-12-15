@@ -1,0 +1,449 @@
+@charset "UTF-8";
+
+/* header area */
+
+.confix {
+    position: relative;
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* background-color: rgb(240, 196, 196); */
+}
+
+
+/*================== header ==================*/
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #f8f292;
+}
+
+.confix2 {
+    padding: 0 190px;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.logo {
+    width: 150px;
+    margin: 20px 94px 0 208px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.pc-menu {
+    margin-right: 53px;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li {
+    padding: 27px 52px 0 0;
+}
+
+.log {
+    display: flex;
+    padding: 27px 52px 0 0;
+}
+
+.search-flex {
+    display: flex;
+}
+
+.log span {
+    position: relative;
+    border: 1px solid black;
+    width: 90px;
+    height: 0;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.search-flex img {
+    position: absolute;
+    right: 618px;
+    top: 21px;
+    width: 24px;
+}
+
+.log .dot {
+    width: 1px;
+    height: 1px;
+    border-radius: 100%;
+    border: solid black;
+    margin: 8.5px 10px 0 10px;
+}
+
+
+/*================== main ====================*/
+
+.slide-baner img {
+    width: 100%;
+}
+
+
+/* BAKERY */
+
+.BAKERY h2 {
+    margin-top: 265px;
+    margin-bottom: 179px;
+    font-size: 75px;
+    /* background-color: blue; */
+}
+
+.bakery-flex-box {
+    display: flex;
+    padding-bottom: 470px;
+}
+
+.sandwich-img img {
+    width: 548px;
+}
+
+.wich-img {
+    position: relative;
+    padding-left: 64px;
+    margin-top: 30px;
+    opacity: 0.5;
+}
+
+.wich-img img:first-child {
+    width: 150px;
+    margin-right: 290px;
+}
+
+.wich-img img:nth-child(2) {
+    width: 150px;
+    margin-right: 0;
+}
+
+.center-wich {
+    position: absolute;
+    width: 300px;
+    top: 306px;
+    right: 241px;
+}
+
+.sandwich-text {
+    padding-top: 212px;
+    padding-left: 70px;
+    line-height: 49px;
+}
+
+#srp {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#srp-egg {
+    font-size: 46px;
+    font-weight: bold;
+    color: gray;
+}
+
+span {
+    display: block;
+    font-size: 24px;
+    margin: 21px 0;
+}
+
+.button-flex {
+    display: flex;
+}
+
+.sandwich-button {
+    border: 2px solid grey;
+    padding: 7px 5px;
+    font-size: 23px;
+    margin-right: 106px;
+}
+
+.slide-button {
+    display: flex;
+    padding-top: 10px;
+}
+
+.slide-button span {
+    width: 50px;
+    margin-right: 10px;
+    border: 4px solid black;
+    border-radius: 40px;
+}
+
+
+/* SALAD */
+
+.SALAD h2 {
+    margin-top: 265px;
+    margin-bottom: 179px;
+    font-size: 75px;
+}
+
+.salad-flex-box {
+    display: flex;
+    padding-bottom: 470px;
+}
+
+.sal-img {
+    position: relative;
+    padding-left: 28px;
+    margin-top: 68px;
+    opacity: 0.5;
+}
+
+.sal-img img:first-child {
+    width: 135px;
+    margin-right: 342px;
+}
+
+.sal-img img:nth-child(2) {
+    width: 135px;
+}
+
+.center-salad {
+    position: absolute;
+    width: 247px;
+    top: 313px;
+    left: 229px;
+}
+
+.salad-text {
+    padding-right: 33px;
+    padding-top: 197px;
+    line-height: 49px;
+}
+
+.salad-img img {
+    width: 585px;
+    margin-left: 20px;
+}
+
+#sal {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#sal-mon {
+    font-size: 46px;
+    font-weight: bold;
+    color: gray;
+}
+
+.salad-button {
+    border: 2px solid grey;
+    padding: 7px 5px;
+    font-size: 23px;
+    margin-right: 106px;
+}
+
+
+/* DRINK */
+
+.DRINK h2 {
+    position: relative;
+    margin-top: 265px;
+    margin-bottom: 179px;
+    font-size: 75px;
+}
+
+.drink-flex-box {
+    margin-bottom: 1700px;
+}
+
+.drink-flex-box div img {
+    height: 332px;
+}
+
+.drink-flex-box div span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.latte,
+.americano,
+.Omiga {
+    position: absolute;
+    display: flex;
+}
+
+.latte {
+    top: 239px;
+    left: 77px;
+}
+
+.latte-txt {
+    margin-left: 56px;
+}
+
+.americano {
+    top: 684px;
+    left: 462px;
+}
+
+.americano-txt {
+    margin-left: 56px;
+}
+
+.Omiga {
+    top: 169px;
+    right: 118px;
+}
+
+.omiga-txt {
+    margin-right: 56px;
+}
+
+.drink-flex-box .arro img {
+    position: absolute;
+    height: 35px;
+    margin-top: 339px;
+    right: -15px;
+}
+
+
+/* NEWS area */
+
+.NEWS {
+    padding-bottom: 470px;
+}
+
+.NEWS h2 {
+    margin-top: 265px;
+    margin-bottom: 179px;
+    font-size: 75px;
+}
+
+hr {
+    width: 100%;
+    border: 0.1px solid black;
+}
+
+.news01 {
+    display: flex;
+}
+
+.news01 img {
+    width: 307px;
+    height: 262px;
+    margin: 18px 40px 10px 40px;
+}
+
+.txt-box {
+    margin: 20px 0;
+}
+
+.news01 span {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+.txt-box h4 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.news01 p {
+    margin-bottom: 10px;
+}
+
+.news01 button {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #fff9a5;
+    cursor: pointer;
+}
+
+.view {
+    width: 120px;
+    text-align: center;
+    margin-top: 33px;
+    margin-left: 623px;
+    border: 1px solid black;
+    padding: 10px 2px;
+}
+
+.view:hover {
+    background-color: #fff9a5;
+    cursor: pointer;
+}
+
+
+/*================== footer ==================*/
+
+
+/* footer area */
+
+footer {
+    width: 100%;
+    height: 379px;
+    background-color: #f8f292;
+}
+
+.footer-flex-box {
+    display: flex;
+    padding-top: 73px;
+}
+
+.morning-logo img {
+    width: 190px;
+    margin-left: 20px;
+}
+
+.morning-address {
+    padding-left: 120px;
+}
+
+.ad {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.ad li {
+    border-right: 2px solid black;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.ad li:last-child {
+    border: none;
+}
+
+address {
+    font-style: normal;
+}
+
+address p {
+    padding-top: 35px;
+    padding-right: 135px;
+}
+
+.SNS {
+    display: flex;
+    flex-direction: column;
+}
+
+.language {
+    margin-bottom: 176px;
+}
+
+.sns-img ul {
+    display: flex;
+}
+
+.sns-img ul li img {
+    width: 50px;
+    padding-right: 15px;
+}
